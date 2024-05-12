@@ -1,0 +1,137 @@
+[33mcommit bd1880d513fe2d2f36591d8de95d976e25fcc4a5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Maurício Santos <mauriciosantos511@gmail.com>
+Date:   Sun May 12 16:35:38 2024 -0300
+
+    voltando para o estado anterior
+
+[1mdiff --git a/app.js b/app.js[m
+[1mindex 76d3bc1..22a013b 100644[m
+[1m--- a/app.js[m
+[1m+++ b/app.js[m
+[36m@@ -1,2 +1 @@[m
+ console.log ("Rodando o sistema de gerenciamento de jogos")[m
+[31m-console.log('Atualizando')[m
+\ No newline at end of file[m
+
+[33mcommit 3d8d3badfde0fe0f305992b9d3e81eb691c433a6[m
+Author: Maurício Santos <mauriciosantos511@gmail.com>
+Date:   Sun May 12 16:08:52 2024 -0300
+
+    adicionando um console log
+
+[1mdiff --git a/app.js b/app.js[m
+[1mindex 22a013b..76d3bc1 100644[m
+[1m--- a/app.js[m
+[1m+++ b/app.js[m
+[36m@@ -1 +1,2 @@[m
+ console.log ("Rodando o sistema de gerenciamento de jogos")[m
+[32m+[m[32mconsole.log('Atualizando')[m
+\ No newline at end of file[m
+
+[33mcommit 6487b70aae28fa87234d2bdf2f184a8ab3d6bae3[m
+Author: Maurício Santos <mauriciosantos511@gmail.com>
+Date:   Sun May 12 15:47:45 2024 -0300
+
+    linkando o app js com o html
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex f57e721..1a85e99 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -7,5 +7,6 @@[m
+ </head>[m
+ <body>[m
+     <h1>Sistema de cadastro de jogos</h1>[m
+[32m+[m[32m    <script src='app.js'></script>[m[41m[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit 3752c967fb8c8c23822ef87f43f91fb6b853b160[m
+Author: octaviaskairipa <67124314+octaviaskairipa@users.noreply.github.com>
+Date:   Sat May 11 21:28:04 2024 -0300
+
+    criando o arquivo HTML
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 0bf3210..dc24952 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -7,3 +7,4 @@[m [mPara rodar esse projeto na sua máquina, por favor digite:[m
+ ```[m
+ node app.js[m
+ ```[m
+[32m+[m[32m:)[m
+\ No newline at end of file[m
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f57e721[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32m<!DOCTYPE html>[m[41m[m
+[32m+[m[32m<html lang="pt-br">[m[41m[m
+[32m+[m[32m<head>[m[41m[m
+[32m+[m[32m    <meta charset="UTF-8">[m[41m[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m[41m[m
+[32m+[m[32m    <title>Meus Jogos</title>[m[41m[m
+[32m+[m[32m</head>[m[41m[m
+[32m+[m[32m<body>[m[41m[m
+[32m+[m[32m    <h1>Sistema de cadastro de jogos</h1>[m[41m[m
+[32m+[m[32m</body>[m[41m[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+
+[33mcommit 59655841d121ccc2b9e6ca70f45ee5889ebc8144[m
+Author: octaviaskairipa <67124314+octaviaskairipa@users.noreply.github.com>
+Date:   Sat May 11 21:18:54 2024 -0300
+
+    alterando o readme do projeto
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 58deab7..0bf3210 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -5,5 +5,5 @@[m
+ Para rodar esse projeto na sua máquina, por favor digite:[m
+ [m
+ ```[m
+[31m-npm install react[m
+[32m+[m[32mnode app.js[m
+ ```[m
+
+[33mcommit 5f741d69a1f89a163c5047bb30b9180965811f56[m
+Author: octaviaskairipa <67124314+octaviaskairipa@users.noreply.github.com>
+Date:   Sat May 11 21:17:52 2024 -0300
+
+    criando o arquivo js com o console
+
+[1mdiff --git a/app.js b/app.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..22a013b[m
+[1m--- /dev/null[m
+[1m+++ b/app.js[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mconsole.log ("Rodando o sistema de gerenciamento de jogos")[m
+
+[33mcommit 51ba4c1b33212b2c6b413ddc6a942a9e302b5814[m
+Author: octaviaskairipa <67124314+octaviaskairipa@users.noreply.github.com>
+Date:   Sat May 11 21:12:38 2024 -0300
+
+    Criando o arquivo README.md
+
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..58deab7[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32m<h1>Sistemas de cadastro de jogos</h1>[m
+[32m+[m
+[32m+[m[32m> Status do projeto: Em desenvolvimento[m
+[32m+[m
+[32m+[m[32mPara rodar esse projeto na sua máquina, por favor digite:[m
+[32m+[m
+[32m+[m[32m```[m
+[32m+[m[32mnpm install react[m
+[32m+[m[32m```[m
